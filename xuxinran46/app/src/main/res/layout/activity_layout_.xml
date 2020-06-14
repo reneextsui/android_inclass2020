@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#f9f9f9"
+    android:orientation="vertical"
+    tools:context="com.xuxinran46.class0531.Layout_Activity">
+
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_marginBottom="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:id="@+id/news_image"
+            android:src="@mipmap/txnews"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10sp"
+            android:background="#ffffff"
+            android:focusable="false" />
+
+        <TextView
+                android:id="@+id/news_title"
+                android:layout_width="200sp"
+                android:layout_height="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/news_image"
+                android:layout_marginTop="22sp"
+                android:layout_marginBottom="2sp"
+                android:text="腾讯新闻"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/news_content"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_toRightOf="@+id/news_image"
+            android:layout_below="@+id/news_title"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="50sp"
+            android:text="@string/news"
+            android:textColor="#abadbb"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="50sp"
+            android:layout_height="18sp"
+            android:layout_alignTop="@+id/news_title"
+            android:layout_alignParentRight="true"
+            android:text="09:08"
+            android:textColor="#abadbb"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+ <!--   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_where"
+            android:text="我在哪?"
+            android:textColor="#00aaaa"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+        <ImageView
+            android:src="@mipmap/p1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_above="@id/txt_where"
+            android:layout_centerHorizontal="true"
+            android:layout_alignWithParentIfMissing="true"/>
+    </RelativeLayout>-->

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">xuxinran46</string>
+    <string name="myname">徐欣然46</string>
+    <string name="please_input_age">请输入年龄</string>
+    <string name="news">九战九捷！#长十一火箭成功送双星入轨# 实现三个“首次” 5月30日4时13分，长征十一号遥八运载火箭在西昌卫星发射中心点火升空，成功将两颗新技术试验卫星送入预定轨道。这两颗卫星用于在轨开展星间链路组网及新型对地观测技术试验。2015年9月首飞至今，长征十一号火箭九战九捷，成功将39颗卫星送入太空。</string>
+    <string name="txnews">腾讯新闻</string>
+    <string name="custom_label">徐欣然46第五课</string>
+    <string-array name="weekdays">
+
+    </string-array>
+</resources>

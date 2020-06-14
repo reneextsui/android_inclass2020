@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffaa00"
+        android:src="@mipmap/p1"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffaa00"
+        android:gravity="right"
+        android:text="徐欣然46"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"
+        android:visibility="visible"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:editable="true"
+        android:hint="请输入用户名"
+        android:maxLength="5"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/please_input_age"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:text="注册"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+
+
+
+</LinearLayout>
